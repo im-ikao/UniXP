@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 namespace UniXP.Domain.Model
 {
@@ -17,7 +18,7 @@ namespace UniXP.Domain.Model
             {
                 var lastValue = _value;
                 _value = value;
-            
+
                 if (lastValue > value)
                     OnDecrease?.Invoke(value);
                 else if (lastValue < value)

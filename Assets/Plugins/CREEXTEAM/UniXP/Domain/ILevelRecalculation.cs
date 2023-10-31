@@ -6,6 +6,9 @@ namespace UniXP.Domain
     {
         public void FromXP(ReactiveUnsignedInteger xp, ReactiveUnsignedInteger level);
         public void ToXP(ReactiveUnsignedInteger xp, ReactiveUnsignedInteger level);
+        public uint GetNextLevelXP(ReactiveUnsignedInteger level);
+        public uint GetCurrentLevelXP(ReactiveUnsignedInteger level);
+
 
     }
 }

@@ -35,5 +35,15 @@ namespace UniXP.Infrastructure
             var calcXP = _evaluator.XPToLevel(xp.Value);
             xp.Set(calcXP);
         }
+
+        public uint GetNextLevelXP(ReactiveUnsignedInteger level)
+        {
+            return _evaluator.LevelToXP(level.Value + 1);
+        }
+
+        public uint GetCurrentLevelXP(ReactiveUnsignedInteger level)
+        {
+            return _evaluator.LevelToXP(level.Value);
+        }
     }
 }
