@@ -6,7 +6,7 @@ using UniXP.Domain;
 using UniXP.Domain.Model;
 using UniXP.Infrastructure;
 
-namespace Plugins.CREEXTEAM.UniXP.Example
+namespace UniXP.Example
 {
     public class Player : MonoBehaviour
     {

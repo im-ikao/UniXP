@@ -6,7 +6,7 @@ using UniXP.Application.Model;
 using UniXP.Domain;
 using UniXP.Infrastructure;
 
-namespace Plugins.CREEXTEAM.UniXP.Application
+namespace UniXP.Application
 {
     [Serializable]
     [CreateAssetMenu]
